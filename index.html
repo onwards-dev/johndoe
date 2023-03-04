@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="container maxw">
+            <img src="assets/img/logo.svg" alt="slika loga">
+            <nav>
+                <ul>
+                    <li><a class="link-nav" href="#">About me</a></li>
+                    <li><a class="link-nav" href="#">Services</a></li>
+                    <li><a class="link-nav" href="#">Portfolio</a></li>
+                    <li><a class="link-nav" href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="intro container">
+        <!--div koji čuvas cijeli sadržaj-->
+        <div class="maxw flex grid">
+            <!--Lijevi div-->
+            <div class="left">
+                <h6>&mdash;&nbsp; HELLO</h6>
+                <h1>I’m <span id="hero-name">John Doe</span></h1>
+                <p>This is my very own first page that I
+                    made during CII course
+                </p>
+                <button class="btn">Contact me</button>
+            </div>
+            <!--Desni div-->
+            <div class="my-img">
+                <img src="assets/img/hero.png" alt="neki lik">
+            </div>
+        </div>
+    </section>
+    <section class="about-me container">
+        <!--div koji predstavlja grid-->
+        <div class="maxw grid">
+            <!--Podijeli element na lijevo-desno-->
+            <div class="am-title">
+                <h2>About me</h2>
+            </div>
+            <!--Desni div-->
+            <div class="am-content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                    <br><br>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nu pariatur
+                    excepteur sint occaecat.
+                </p>
+                <!--button holder-->
+                <div class="button-holder">
+                    <button class="custom-btn fill">View works</button>
+                    <button class="custom-btn">Download CV</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container services">
+        <div class="grid maxw">
+            <div class="sm-service">
+                <h2>Services</h2>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                    laborum. Sed ut perspiciatis unde omnis iste natur</p>
+            </div>
+            <div class="rectangle blue">
+                <img src="assets/img/phone_icon 1.svg" alt="ikona">
+                <h3 class="rec-title">UX Research</h3>
+                <p class="rec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                </p>
+            </div>
+            <div class="rectangle yellow">
+                <img src="assets/img/phone_icon 1.svg" alt="ikona">
+                <h3 class="rec-title">UX Research</h3>
+                <p class="rec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                </p>
+            </div>
+            <div class="rectangle purple">
+                <img src="assets/img/phone_icon 1.svg" alt="ikona">
+                <h3 class="rec-title">UX Research</h3>
+                <p class="rec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                </p>
+            </div>
+            <div class="rectangle green">
+                <img src="assets/img/phone_icon 1.svg" alt="ikona">
+                <h3 class="rec-title">UX Research</h3>
+                <p class="rec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="contact container">
+        <div class="grid maxw">
+            <div class="section-title">
+                <h2 class="section-title__h2">Contact me</h2>
+            </div>
+            <div class="contact-info">
+                <h5 class="contact-info__subtitle">Contact info</h5>
+                <div class="contact-info__personal">
+                    <h6 id="contact-name" class="contact-info__personal-text">Aspira</h6>
+                </div>
+                <div class="contact-info__personal">
+                    <h6 id="contact-email" class="contact-info__personal-text">john.doe@aspira.hr</h6>
+                </div>
+                <div class="contact-info__personal">
+                    <h6 id="contact-phone1" class="contact-info__personal-text">098 603 905</h6>
+                    <h6 id="contact-phone2" class="contact-info__personal-text">098 603 905</h6>
+                </div>
+                <div class="contact-info__personal">
+                    <h6 class="contact-info__personal-text">www.aspira.hr</h6>
+                </div>
+                <h5 class="contact-info__subtitle">Follow me</h5>
+                <div class="contact-info__socials">
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    <a href="https://twitter.com/" target="_blank"> <i class="fa-brands fa-twitter fa-2xl"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <div class="contact-form__field full">
+                    <p class="contact-form__field-title">Name</p>
+                    <input id="name" type="text" class="contact-form__field-input" placeholder="Type your name">
+                </div>
+                <div class="contact-form__field half">
+                    <p class="contact-form__field-title">Phone number</p>
+                    <input id="phone-number" type="text" class="contact-form__field-input"
+                        placeholder="Type your number">
+                </div>
+                <div class="contact-form__field half">
+                    <p class="contact-form__field-title">Email</p>
+                    <input id="email" type="email" class="contact-form__field-input" placeholder="Type your email">
+                </div>
+                <div class="contact-form__field full">
+                    <textarea id="message" class="contact-form__field-textarea" cols="30" rows="10"
+                        placeholder="Type your message"></textarea>
+                </div>
+                <div class="contact-form__field full">
+                    <input id="send" type="submit" value="SEND MESSAGE">
+                    <p id="alert">ISPUNI FORMU DO KRAJA!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
